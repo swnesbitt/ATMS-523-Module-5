@@ -4,7 +4,7 @@
 
 Submit this code as a pull request back to GitHub Classroom by the date and time listed in Canvas.
 
-For this assignment, use the dataset provided in the GitHub repository in the folder `homework`.
+For this assignment, use the dataset called `radar_parameters.csv` provided in the GitHub repository in the folder `homework`.
 
 The provided data has 
 
