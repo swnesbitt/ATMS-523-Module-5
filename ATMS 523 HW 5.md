@@ -16,7 +16,7 @@ The training data consists of polarimetric radar parameters calculated from a di
 
 Features (radar measurements):
 
-`Zh` - radar reflectivity factor (dBZ) - use the formula $dBZ = 10\log_{10}(Z/10)$
+`Zh` - radar reflectivity factor (dBZ) - use the formula $dBZ = 10\log_{10}(Z)$
 
 `Zdr` - differential reflectivity
 
