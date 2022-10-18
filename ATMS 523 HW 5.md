@@ -16,8 +16,7 @@ The training data consists of polarimetric radar parameters calculated from a di
 
 Features (radar measurements):
 
-`Zh` - radar reflectivity factor (dBZ) - use the formula $dBZ = 10 \log_{10}(Z/10)$
-$
+`Zh` - radar reflectivity factor (dBZ) - use the formula $dBZ = 10\log_{10}(Z/10)$
 
 `Zdr` - differential reflectivity
 
@@ -49,6 +48,7 @@ Target :
    'min_samples_leaf': [1, 2, 4],  
    'min_samples_split': [2, 5, 10],  
    'n_estimators': [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]}```
-   Can you beat the baseline, or the linear regression, or best polynomial model with the best optimized Random Forest Regressor in terms of $R^2$ and root mean square error?
+   
+Can you beat the baseline, or the linear regression, or best polynomial model with the best optimized Random Forest Regressor in terms of $R^2$ and root mean square error?
 
 
