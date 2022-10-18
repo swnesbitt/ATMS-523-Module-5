@@ -12,11 +12,11 @@ The provided data has
 
 The training data consists of polarimetric radar parameters calculated from a disdrometer (an instrument that measures rain drop sizes, shapes, and rainfall rate) measurements from several years in Huntsville, Alabama. A model called `pytmatrix` is used to calculate polarimetric radar parameters from the droplet observations, which can be used as a way to compare what a remote sensing instrument would see and rainfall.
 
-## ## Data columns
+## Data columns
 
 Features (radar measurements):
 
-`Zh` - radar reflectivity factor (dBZ) - use the formula $dBZ = 10 \log_{10}(Z/10)
+`Zh` - radar reflectivity factor (dBZ) - use the formula $dBZ = 10 \log_{10}(Z/10)$
 $
 
 `Zdr` - differential reflectivity
