@@ -1,12 +1,10 @@
 # ATMS 523
 
-## Module 4 Project
+## Module 5 Project
 
-Submit this code as a pull request back to GitHub Classroom by the date and time listed in Canvas.
+Fork this repository, and submit this code as a pull request back to GitHub by the date and time listed in Canvas.
 
 For this assignment, use the dataset called `radar_parameters.csv` provided in the GitHub repository in the folder `homework`.
-
-The provided data has 
 
 ## Dataset Description
 
@@ -38,7 +36,7 @@ Target :
 
 2. Using the split created in (1), train a multiple linear regression dataset using the training dataset, and validate it using the testing dataset.  Compare the $R^2$ and root mean square errors of model on the training and testing sets to a baseline prediction of rain rate using the formula $Z = 200 R^{1.6}$.
 
-3. Repeat 1 doing a grid search over polynomial orders, using a grid search over orders 0-21, and use cross-validation of 7 folds.  For the best polynomial model in terms of $R^2$, does it outperform the baseline and the linear regression model in terms of $R^2$ and root mean square error?
+3. Repeat 1 doing a grid search over polynomial orders, using a grid search over orders 0-9, and use cross-validation of 7 folds.  For the best polynomial model in terms of $R^2$, does it outperform the baseline and the linear regression model in terms of $R^2$ and root mean square error?
 
 4. Repeat 1 with a Random Forest Regressor, and perform a grid_search on the following parameters:
    
