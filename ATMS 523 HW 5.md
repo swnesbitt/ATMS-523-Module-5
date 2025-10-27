@@ -41,12 +41,13 @@ Target :
 4. Repeat 1 with a Random Forest Regressor, and perform a grid_search on the following parameters:
    
    ```python
-   {'bootstrap': [True, False],  
-   'max_depth': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, None],  
-   'max_features': ['auto', 'sqrt'],  
-   'min_samples_leaf': [1, 2, 4],  
-   'min_samples_split': [2, 5, 10],  
-   'n_estimators': [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]}
+   param_grid = {
+    "bootstrap": [True, False],
+    "max_depth": [10, 100],
+    "max_features": ["sqrt", 1.0],  
+    "min_samples_leaf": [1, 4],
+    "min_samples_split": [2, 10],
+    "n_estimators": [200, 1000]}
    ```
   Can you beat the baseline, or the linear regression, or best polynomial model with the best optimized Random Forest Regressor in terms of $R^2$ and root mean square error?
 
