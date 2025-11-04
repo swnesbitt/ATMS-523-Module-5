@@ -1,10 +1,10 @@
-## Module 5 Homework Submission by Scott Andersen 
-# ATMS 523 -- 2025
+# Module 5 Homework Submission by Scott Andersen 
+## ATMS 523 -- 2025
 
 This assignment I did not use a jupyter notebook but created a basic python script to complete the exercises. Assuming that scikit learn is installed on your machine you should be able to run as is using ./hw5.py.
 
 
-# Exercises
+## Exercises and discussion
 1. Split the data into a 70-30 split for training and testing data.
 
 This was completed using scikit learn's train_test_split function. In hw5.py this is done in the function split_data.
@@ -54,7 +54,7 @@ MSE: 1.0251
 Although this is a good classification model, it performs slightly worse that multi regression in terms of MSE and slightly better than Multi regression in terms of R2. This model well out performs the baseline but is substantially beat by the polynomial regression model.
 
 
-#References#
+## References
 The data was provided with this assignment and much of the code was adopted from the module 5 notebooks, however I referenced quite a bit the Scikit learn documentation.
 
 Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
@@ -62,7 +62,7 @@ https://scikit-learn.org/
 
 Many places in the code where reference documentation is used a link is provided inline.
 
-# Full code output
+## Full code output
 The following is the full output of the script, ./hw5.py
 
 ```
