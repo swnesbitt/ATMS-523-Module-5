@@ -24,8 +24,6 @@ def prep_data(dataframe):
                   'Ah (dBZ/km)', 'Adr (dB/km)']].to_numpy()
     y = dataframe['R (mm/hr)'].to_numpy()
 
-    # standardize the data?
-
     return x, y
 
 
@@ -117,6 +115,7 @@ def evaluate(y_pred, y_true, print_scores=True):
 def main():
     """Run main function."""
     df = load_data()
+
     x, y = prep_data(df)
     x_train, x_test, y_train, y_test = split_data(x, y)
 
