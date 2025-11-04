@@ -51,7 +51,7 @@ The test classification results are as follows:
 R2:  0.9866
 MSE: 1.0251
 
-Although this is a good classification model, it performs slightly worse that multi regression in terms of MSE and slightly better than Multi regression in terms of R2. This model well out performs the baseline but is substantially beat by the polynomial regression model.
+Although this is a good classification model, it performs slightly worse than multi regression, and undeniably worse than the polynomial regression. However, this model well out performs the baseline.
 
 
 ## References
