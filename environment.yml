@@ -1,9 +1,9 @@
-name: logreg-weather-py311
+name: logreg-weather-py39
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - numpy=1.26
+  - python=3.9
+  - numpy=1.21
   - scipy
   - pandas
   - xarray
@@ -13,10 +13,10 @@ dependencies:
   - bokeh
   - dask
   - distributed
-  - pyyaml
-  - pytmatrix
   - matplotlib
   - cartopy
   - pip
-  - pip:
-      - setuptools<60  # for compatibility with numpy.distutils if needed
+  - scikit-learn
+  - statsmodels
+  - pytmatrix
+  
