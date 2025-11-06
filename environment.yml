@@ -1,0 +1,22 @@
+name: logreg-weather-py311
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - scipy
+  - pandas
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - bokeh
+  - dask
+  - distributed
+  - pyyaml
+  - pytmatrix
+  - matplotlib
+  - cartopy
+  - pip
+  - pip:
+      - setuptools<60  # for compatibility with numpy.distutils if needed
