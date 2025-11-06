@@ -1,0 +1,22 @@
+name: logreg-weather-py39
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy=1.21
+  - scipy
+  - pandas
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - bokeh
+  - dask
+  - distributed
+  - matplotlib
+  - cartopy
+  - pip
+  - scikit-learn
+  - statsmodels
+  - pytmatrix
+  
