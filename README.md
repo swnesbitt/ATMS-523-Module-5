@@ -55,7 +55,7 @@ All machine learning models outperform the baseline, but the **degree-2 polynomi
 
 ## 💾 Repository Structure
 ├── homework/
-│ └── radar_parameters.csv
+│   └── radar_parameters.csv
 ├── Module5_Project_Radar_Regression.ipynb
 ├── README.md
 ├── best_linear_model.joblib
