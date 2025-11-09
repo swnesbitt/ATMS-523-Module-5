@@ -39,16 +39,14 @@ Target :
 3. Repeat 1 doing a grid search over polynomial orders, using a grid search over orders 0-9, and use cross-validation of 7 folds.  For the best polynomial model in terms of $R^2$, does it outperform the baseline and the linear regression model in terms of $R^2$ and root mean square error?
 
 4. Repeat 1 with a Random Forest Regressor, and perform a grid_search on the following parameters:
-   
+
    ```python
    param_grid = {
     "bootstrap": [True, False],
     "max_depth": [10, 100],
-    "max_features": ["sqrt", 1.0],  
+    "max_features": ["sqrt", 1.0],
     "min_samples_leaf": [1, 4],
     "min_samples_split": [2, 10],
     "n_estimators": [200, 1000]}
    ```
   Can you beat the baseline, or the linear regression, or best polynomial model with the best optimized Random Forest Regressor in terms of $R^2$ and root mean square error?
-
-
