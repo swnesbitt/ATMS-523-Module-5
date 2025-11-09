@@ -1,0 +1,12 @@
+numpy>=1.20.0
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+ipywidgets
+xarray
+pyyaml
+bokeh
+dask[complete]
